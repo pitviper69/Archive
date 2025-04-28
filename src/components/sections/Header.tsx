@@ -74,7 +74,7 @@ export const Header = () => {
                             </figure>
                         </div>
                         <div className="flex justify-center flex-1">
-                            <img src="/src/assets/Fangs-512.png" alt="Logo"/>
+                            <img src="/assets/Fangs-512.png" alt="Logo"/>
                         </div>
                         <div className="flex justify-end items-center flex-1">
 
