@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'source-code-pro', monospace;
+  background: #008080;
+  color: #000000;
+}
+
+@theme {
+  --color-blue-primary: #0E0A87;
+  --color-wallpaper-teal: #1E8080;
+  --color-space-gray: #bdbdbd;
+  --color-link: #00007e;
+  --font-lato: 'Lato', sans-serif;
+  --shadow-normal: 1px 1px #000,inset 1px 1px #fff;
+  --font-bf-paragraph:'Work Sans', sans-serif;
+  --font-bf-header: 'rama-gothic-m', sans-serif;
+  --text-shadow-bf: 3px 3px #000;
+  --text-shadow-bf-sm: 0px 4px 0px #000;
+  --color-prev-prize: rgba(46, 122, 113, 0.8);
+  --radius-prev-prize: 137px 137px 0px 0px;
+  --font-rhodium: 'Rhodium Libre';
+  --color-bf-prize-title: #f2be1c;
+  --font-sarina: 'Sarina'
+
+}
+@layer base {
+    h1 {
+        @apply text-xl font-bold font-lato italic; /* Example styles, customize as needed */
+    }
+    lato {
+        @apply font-lato font-bold italic
+    }
+}
