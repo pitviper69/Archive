@@ -1,15 +1,20 @@
+import Underline from "../../assets/underline.svg"
+import GiftCard from "../../assets/20k-giftcard.png"
+import Truxedo from "../../assets/truxedo-3.png"
+import HeliSki from "../../assets/glenplake-heliski-1-fullsize.png"
+
 export const PreviousPrizes = () => {
     return (
         <>
             <h2 className="mt-20 text-center font-bf-header uppercase tracking-wide font-bold text-white text-7xl text-shadow-bf">What's In it for you?</h2>
-            <img className="m-auto max-w-lg" src="/src/assets/underline.svg"/>
+            <img className="m-auto max-w-lg" src={Underline}/>
             <p className="max-w-sm m-auto text-center font-bf-header text-white text-4xl pt-3">Prizes that we’ve given away before to talentless losers just like you.</p>
             <div className="flex flex-row justify-evenly m-auto max-w-5xl">
                 <div className="relative p-6 max-w-2xs">
                     <div
                         className="bg-prev-prize rounded-t-full absolute h-[72%] blur-sm left-0 right-0 w-full top-[100px] z-0"></div>
                     <div className=" w-[80%] m-auto z-10 relative">
-                        <img className="w-full" src="/src/assets/20k-giftcard.png"/>
+                        <img className="w-full" src={GiftCard}/>
                     </div>
                     <div className="h-[200px] p-2 relative z-10">
                         <h2 className="text-white text-center text-shadow-bf-sm font-bold text-[32px] uppercase tracking-wider font-bf-header"> Pit
@@ -24,7 +29,7 @@ export const PreviousPrizes = () => {
                     <div
                         className="bg-prev-prize rounded-t-full absolute h-[72%] blur-sm left-0 right-0 w-full top-[100px] z-0"></div>
                     <div className=" w-[80%] m-auto z-10 relative">
-                        <img className="w-full" src="/src/assets/truxedo-3.png"/>
+                        <img className="w-full" src={Truxedo}/>
                     </div>
                     <div className="h-[200px] p-2 relative z-10">
                         <h2 className="text-white text-center text-shadow-bf-sm font-bold text-[32px] uppercase tracking-wider font-bf-header">Canadian Truxedo</h2>
@@ -37,7 +42,7 @@ export const PreviousPrizes = () => {
                     <div
                         className="bg-prev-prize rounded-t-full absolute h-[72%] blur-sm left-0 right-0 w-full top-[100px] z-0"></div>
                     <div className=" w-[80%] m-auto z-10 relative">
-                        <img className="w-full" src="/src/assets/glenplake-heliski-1-fullsize.png"/>
+                        <img className="w-full" src={HeliSki}/>
                     </div>
                     <div className="h-[200px] p-2 relative z-10">
                         <h2 className="text-white text-center text-shadow-bf-sm font-bold text-[32px] uppercase tracking-wider font-bf-header">Heli-Skiing Vacation</h2>
