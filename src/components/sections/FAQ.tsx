@@ -63,7 +63,7 @@ const faq: { [key: string]: FaqData } = {
 
 const FAQ: React.FC = () => {
     return (
-        <div className="p-20">
+        <div className="p-6 lg:p-20">
             <h2 className="mt-20 mb-4 text-center font-bf-header uppercase tracking-wide font-bold text-white text-8xl text-shadow-bf">F.A.Q.U</h2>
             <img className="m-auto max-w-lg mb-20" src="/assets/underline.svg"/>
             {Object.keys(faq).map((key) => (
