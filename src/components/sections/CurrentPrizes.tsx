@@ -88,11 +88,11 @@ const prizes: { [key: string]: PrizeData } = {
 
 const CurrentPrizes: React.FC = () => {
     return (
-        <div className="p-20">
-            <h2 className="mt-20 mb-4 text-center font-bf-header uppercase tracking-wide font-bold text-white text-8xl text-shadow-bf">The prizes</h2>
+        <div className="p-6 lg:p-20">
+            <h2 className="lg:mt-20 mb-4 text-center font-bf-header uppercase tracking-wide font-bold text-white text-8xl text-shadow-bf">The prizes</h2>
             <img className="m-auto max-w-lg mb-20" src="/assets/underline.svg"/>
             {Object.keys(prizes).map((key) => (
-                <div key={key} className="relative w-full flex flex-row mb-20">
+                <div key={key} className="relative w-full flex flex-col lg:flex-row mb-20">
                     <div className="basis-1/2">
                         <img className="w-5/6 m-auto" src={prizes[key].image}/>
                     </div>
@@ -102,7 +102,6 @@ const CurrentPrizes: React.FC = () => {
                         <h3 className="z-10 ml-6 font-bf-header text-shadow-bf text-bf-prize-title text-7xl font-bold uppercase tracking-wide mb-6">{prizes[key].name}</h3>
                         <p className="z-10 ml-6 font-rhodium text-white text-lg">{prizes[key].description}</p>
                     </div>
-
                 </div>
             ))}
         </div>
