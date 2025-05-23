@@ -1,5 +1,6 @@
 // CurrentPrizes.tsx
 import React from 'react';
+import Underline from "../../assets/underline.svg";
 
 interface FaqData {
     question: string;
@@ -65,7 +66,7 @@ const FAQ: React.FC = () => {
     return (
         <div className="p-6 lg:p-20">
             <h2 className="mt-20 mb-4 text-center font-bf-header uppercase tracking-wide font-bold text-white text-8xl text-shadow-bf">F.A.Q.U</h2>
-            <img className="m-auto max-w-lg mb-20" src="/assets/underline.svg"/>
+            <img className="m-auto max-w-lg mb-20" src={Underline}/>
             {Object.keys(faq).map((key) => (
                 <div className="flex flex-col relative mb-6">
                     <h3 className="z-10 font-bf-header text-4xl tracking-wide mb-1 text-white">{faq[key].question}</h3>
