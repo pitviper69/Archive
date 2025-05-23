@@ -4,8 +4,8 @@ export const PreviousPrizes = () => {
             <h2 className="mt-20 text-center font-bf-header uppercase tracking-wide font-bold text-white text-7xl text-shadow-bf">What's In it for you?</h2>
             <img className="m-auto max-w-lg" src="/assets/underline.svg"/>
             <p className="max-w-sm m-auto text-center font-bf-header text-white text-4xl pt-3">Prizes that we’ve given away before to talentless losers just like you.</p>
-            <div className="flex flex-row justify-evenly m-auto max-w-5xl">
-                <div className="relative p-6 max-w-2xs">
+            <div className="flex flex-col justify-center md:flex-row lg:justify-evenly m-auto lg:max-w-5xl">
+                <div className="relative p-6 max-w-2xs m-auto">
                     <div
                         className="bg-prev-prize rounded-t-full absolute h-[72%] blur-sm left-0 right-0 w-full top-[100px] z-0"></div>
                     <div className=" w-[80%] m-auto z-10 relative">
@@ -20,7 +20,7 @@ export const PreviousPrizes = () => {
                         </p>
                     </div>
                 </div>
-                <div className="relative p-6 max-w-2xs">
+                <div className="relative p-6 max-w-2xs m-auto">
                     <div
                         className="bg-prev-prize rounded-t-full absolute h-[72%] blur-sm left-0 right-0 w-full top-[100px] z-0"></div>
                     <div className=" w-[80%] m-auto z-10 relative">
@@ -33,7 +33,7 @@ export const PreviousPrizes = () => {
                         </p>
                     </div>
                 </div>
-                <div className="relative p-6 max-w-2xs">
+                <div className="relative p-6 max-w-2xs m-auto">
                     <div
                         className="bg-prev-prize rounded-t-full absolute h-[72%] blur-sm left-0 right-0 w-full top-[100px] z-0"></div>
                     <div className=" w-[80%] m-auto z-10 relative">

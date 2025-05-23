@@ -1,7 +1,7 @@
 export const BlackFridayIntro = () => {
     return (
         <>
-            <div className="my-auto mx-50 font-bf-paragraph text-white text-center uppercase text-xl font-normal tracking-widest">
+            <div className="my-auto mx-6 lg:mx-50 font-bf-paragraph text-white text-center uppercase text-md lg:text-xl font-normal tracking-widest">
                 <p>
                     12 DAYS OF TURBO IS BACK WITH LOUDER ENGINES, AN ASTOUNDING NUMBER COMPLAINTS FROM OUR HR, AND 12 MORE CHANCES TO WIN.
                 </p>
